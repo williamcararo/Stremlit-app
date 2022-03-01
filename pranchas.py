@@ -3,7 +3,7 @@ from typing import Text
 import pandas as pd
 #from pycaret.regression import load_model 
 import streamlit as st
-from sklearn.metrics import accuracy_score
+#from sklearn.metrics import accuracy_score
 from streamlit.proto.RootContainer_pb2 import SIDEBAR
 from streamlit.proto.Slider_pb2 import Slider
 import joblib
