@@ -1,3 +1,4 @@
+pip install streamlit
 from os import write
 from typing import Text
 import pandas as pd
