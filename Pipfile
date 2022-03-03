@@ -51,6 +51,7 @@ pydeck = ">=0.1.dev5"
 pympler = ">=0.9"
 python-dateutil = "*"
 requests = "*"
+sklearn = "*"
 joblib = "*"
 toml = "*"
 # 5.0 has a fix for etag header: https://github.com/tornadoweb/tornado/issues/2262
