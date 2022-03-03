@@ -10,8 +10,7 @@ import joblib
 from PIL import Image
 
 
-#model = joblib.load('C:/Users/William Cararo/Videos/Curso - Data Science/módulo 11 - machine learning/cap06-ml-producao-materiais-apoio/notebook-dataset/model.pkl')
-model = joblib.load('C:/Users/willi/modelo_grid_papai.pkl')
+model = joblib.load('modelo_grid_papai.pkl')
 
 #Título do app
 st.header("""
