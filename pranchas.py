@@ -75,11 +75,11 @@ if btn_predict:
     resultado = f'A Prancha recomendada para você é a de número: {result}.' #if result == [1] else "Negada. Tente entrar em contato com seu gerente de contas."
     st.write(resultado)
     caminho = 'C:/Users/willi/Pictures/'
-    p1 = 'pranchas.jpg'
-    p2 = 'surf.jpg'
-    p3 = 'prancha3.jpg'
-    p4 = 'prancha4.png'
-    p5 = 'prancha22.jpg'
+    p1 = 'Images/prancha22.jpg'
+    p2 = 'Images/prancha3.jpg'
+    p3 = 'Images/prancha4.png'
+    p4 = 'Images/pranchas.jpg'
+    p5 = 'Images/surf.jpg'
     
     if result == [6]:
         image = Image.open(f'{caminho}/{p1}')
