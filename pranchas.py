@@ -96,7 +96,8 @@ if btn_predict:
         st.image(image, caption = 'Prancha top demais') 
     else:
         image = Image.open(f'{caminho}/{p3}')
-        st.image(image, caption = 'Outras') 
+        st.image(image, caption = 'Outras')
+         
         
     
 #    caminho = 'C:/Users/willi/Pictures/'
