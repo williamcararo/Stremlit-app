@@ -43,7 +43,8 @@ types-typed-ast = "*"
 numpy = "*"
 packaging = "*"
 pandas = ">=0.21.0"
-Pillow="8.4.0"
+Pillow >= "9.0"
+#8.4.0
 # protobuf version 3.11 is incompatible, see https://github.com/streamlit/streamlit/issues/2234
 #protobuf = ">=3.6.0, !=3.11"
 #pyarrow = "*"
