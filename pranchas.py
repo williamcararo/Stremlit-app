@@ -7,8 +7,8 @@ import streamlit as st
 from streamlit.proto.RootContainer_pb2 import SIDEBAR
 from streamlit.proto.Slider_pb2 import Slider
 import joblib
-from PIL.Image import core as _imaging
-#from PIL import Image
+#from PIL.Image import core as _imaging
+from PIL import Image
 
 
 model = joblib.load('modelo_grid_papai.pkl')
@@ -104,6 +104,3 @@ if btn_predict:
 #    p1 = '303828.jpg'#    p2 = 'surf.jpg'    x = result    x = p1 if x == [6] else p2
 #    image = Image.open(f'{caminho}/{x}')
 #    st.image(image, caption = 'Prancha')
-
-
-    # para iniciar esta aplicação deve rodar o comando "streamlit run 'nom_do_arquivo.py"
