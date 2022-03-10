@@ -7,8 +7,8 @@ import streamlit as st
 from streamlit.proto.RootContainer_pb2 import SIDEBAR
 from streamlit.proto.Slider_pb2 import Slider
 import joblib
-from PIL.Image import core as _imaging
-#from PIL import Image
+#from PIL.Image import core as _imaging
+from PIL import Image
 
 
 model = joblib.load('modelo_grid_papai.pkl')
